@@ -1,0 +1,93 @@
+/* Apply Background Color to Whole Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light Gray */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007bff; /* Blue */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.search-bar {
+  display: flex;
+  gap: 5px;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 8px 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.items {
+  margin-top: 20px;
+}
+
+.item {
+  padding: 10px;
+  background: #eee;
+  margin: 5px auto;
+  width: 200px;
+  border-radius: 5px;
+}
+
+/* Page Content */
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
